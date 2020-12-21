@@ -1,0 +1,158 @@
+/*
+ * ---------------------------------------
+ * Step 1: Import fonts
+ * ---------------------------------------
+ */
+
+/* Google Fonts */
+
+/* @import url('https://fonts.googleapis.com/css?family=[FONTS]'); */
+
+/* Typekit */
+
+/* @import url("https://use.typekit.net/[PROJECT_ID].css"); */
+
+/* Source Serif Pro */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+/* Source Sans Pro */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+/* Source Code Pro */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+/*
+ * ---------------------------------------
+ * Step 2: Change font families
+ * ---------------------------------------
+ */
+
+/* Body Fonts */
+
+.typeface-body-one,
+.pair-one p {
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+}
+
+.typeface-body-two,
+.pair-two p {
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+
+/* Heading Fonts */
+
+.typeface-heading-one,
+.pair-one h1 {
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+}
+
+.typeface-heading-two,
+.pair-two h1 {
+  font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+
+/* Sample Content */
+
+.sample p {
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+}
+
+.sample p.intro {
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+}
+
+.sample h1,
+h2 {
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+}
+
+.sample blockquote {
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+}
+
+/*
+ * ---------------------------------------
+ * Step 3: Adjust font sizes
+ * ---------------------------------------
+ */
+
+/* Pairs */
+
+.pair-one h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -0.01em;
+}
+
+.pair-one p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.pair-two h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -0.01em;
+}
+
+.pair-two p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Sample Content: Article */
+
+.sample-one p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.sample-one p.intro {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.sample-one h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -0.01em;
+}
+
+.sample-one h2 {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.sample-one blockquote {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Sample Content: Narrow block */
+
+.sample-two h1 {
+  font-size: 36px;
+}
+
+/* Sample Content: Mobile */
+
+.sample-three h1 {
+  font-size: 32px;
+}
+
+.sample-three p {
+  font-size: 17px;
+}
+
+/* Sample Content: Hero */
+
+.sample-four h1,
+.sample-five h1 {
+  font-size: 60px;
+}

@@ -1,0 +1,229 @@
+/*
+ * ---------------------------------------
+ * Template: Don't Edit
+ * ---------------------------------------
+ */
+
+html {
+  font-size: 62.5%; /* 10px browser default */
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Chrome fix */
+body > div {
+  font-size: 20px;
+  font-size: 2rem;
+}
+
+body {
+  background-color: #fff;
+  color: #222;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.col-left {
+  float: left;
+  width: 45%;
+}
+
+.col-right {
+  float: right;
+  width: 45%;
+}
+
+.instructions {
+  font-family: Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  padding: 2% 5%;
+  margin: 20px auto 150px;
+  text-align: center;
+}
+
+.clearfix::before {
+  display: table;
+  content: " ";
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+p.intro {
+  font-size: 24px;
+  line-height: 1.7;
+}
+
+a {
+  color: #d0021b;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #111;
+}
+
+.button {
+  background: #d0021b;
+  color: #fff;
+  display: inline-block;
+  font-family: Source Serif Pro, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 11px 24px 9px;
+  margin: 16px 0;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #111;
+  color: #fff;
+}
+
+blockquote {
+  color: #555;
+  font-size: 22px;
+  font-style: italic;
+  margin: 32px 0;
+  padding-left: 56px;
+  position: relative;
+}
+
+blockquote::before {
+  content: "\201C";
+  color: #d0021b;
+  font-size: 60px;
+  line-height: 1;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  margin: 24px 0;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: -0.01em;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  margin-top: 48px;
+}
+
+.typefaces p {
+  margin-bottom: 0;
+}
+
+.typefaces .wrap {
+  padding-top: 0;
+}
+
+.typeface-body-one:before,
+.pair-one:before,
+.sample-one:before {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  margin-top: -50px;
+  color: #666;
+}
+
+.typeface-body-one:before {
+  content: "Typefaces";
+}
+
+.pair-one:before {
+  content: "Pairs";
+}
+
+.sample-one:before {
+  content: "Sample Content";
+}
+
+.sample-one p.post-info {
+  font-size: 15px;
+}
+
+.sample-one p.post-info .author {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sample-one p.post-info .date {
+  margin-left: 10px;
+}
+
+.typeface-body p,
+.typeface-heading p {
+  margin-bottom: 0;
+}
+
+.sample-one {
+  max-width: 750px;
+}
+
+.sample-two {
+  max-width: 450px;
+}
+
+.sample-three {
+  max-width: 320px;
+}
+
+.sample-two h1 {
+  font-size: 36px;
+  margin-bottom: 24px;
+}
+
+.sample-three h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.sample-three p {
+  font-size: 17px;
+}
+
+.sample-four h1,
+.sample-five h1 {
+  font-size: 60px;
+}
+
+.sample-four,
+.sample-five {
+  max-width: 750px;
+  margin: 0 auto;
+}
